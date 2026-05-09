@@ -1,19 +1,3 @@
-\# GITHUB WORKFLOW GUIDE
-
-
-
-Welcome to \*\*ROBOCON WORKSPACE\*\*
-
-This document explains \*\*how team members should clone the repo, set up Git, and work using feature branches\*\*.
-
-
-
-⚠️ Direct changes to `main` are NOT allowed.  
-
-All work must be done using \*\*feature branches\*\* and merged via \*\*Pull Requests (PRs)\*\*.
-
-
----
 
 
 \## 🧠 Git Basics (Quick Understanding)
@@ -34,7 +18,7 @@ All work must be done using \*\*feature branches\*\* and merged via \*\*Pull Req
 
 
 
----
+\---
 
 
 
@@ -56,14 +40,14 @@ git config --global init.defaultBranch main
 
 
 
-\## To verify configuration
+\\## To verify configuration
 
 git config --global --list
 
 
 
 
-**## Cloning and work steps starts from here:**
+\*\*## Cloning and work steps starts from here:\*\*
 
 
 
@@ -74,7 +58,7 @@ git clone https://github.com/robocon2026git-code/ELECTRICAL-AND-EMBEDDED.git
 
 
 
-# \## REGULAR WORK PROCEDURE
+# \\## REGULAR WORK PROCEDURE
 
 1)cd ELECTRO-CORE
 
@@ -92,7 +76,7 @@ git clone https://github.com/robocon2026git-code/ELECTRICAL-AND-EMBEDDED.git
 
     ex:
 
-        git checkout -b feature/pneumatic\_actuation
+        git checkout -b feature/pneumatic\\\_actuation
 
 	git checkout -b feature/arduino-motor
 
@@ -106,9 +90,9 @@ After work done run this command once
 
 
 
-\## THE FOLLOWING STEPS ARE AFTER COMPLETION OF YOUR WORK
+\\## THE FOLLOWING STEPS ARE AFTER COMPLETION OF YOUR WORK
 
-\*\* THIS THREE COMMENTS WE WILL USE FREQUENTLY
+\\\*\\\* THIS THREE COMMENTS WE WILL USE FREQUENTLY
 
 7)git add .
 
@@ -118,22 +102,23 @@ After work done run this command once
 
 Run this command only when your first push after creation of your feature branch
 
-9) a_)git push -u origin feature/your-branch-name
+9) a\_)git push -u origin feature/your-branch-name
 
 
 from next push onwards you can just type
 
-   b_)git push
+   b\_)git push
 
 
 
 For local space
 
-10) a_)git branch -d feature/your-branch-name		//Run this comment only after code is merged. This will delete your branch
+10) a\_)git branch -d feature/your-branch-name		//Run this comment only after code is merged. This will delete your branch
 
 
 
 For remote space
 
-    b_)git push origin --delete feature/your-branch-name
+    b\_)git push origin --delete feature/your-branch-name
+
 
