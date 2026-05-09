@@ -1,5 +1,5 @@
 // Basic JavaScript example
-console.log("Hello, World!");
+console.log("Hello, pevakuty!");
 
 // Variable declaration
 const name = "JavaScript";
