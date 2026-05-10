@@ -1,0 +1,14 @@
+{
+  "name": "traveloop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Travel planner with itineraries, budget tracking, and community",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
